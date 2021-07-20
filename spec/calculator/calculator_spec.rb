@@ -1,6 +1,6 @@
 require 'calculator'
 
-describe Calculator, "(Sobre a Calculadora)" do
+ describe Calculator, "(Sobre a Calculadora)" do
 
   context '#div' do
     it 'divide by 0' do 
@@ -26,4 +26,4 @@ end
     expect(result).to eq(-12)
 end
   end
-end
+end 
