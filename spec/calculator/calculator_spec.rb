@@ -1,6 +1,7 @@
 require 'calculator'
 
-describe Calculator do
+describe Calculator, "(Sobre a Calculadora)" do
+
 	context'#sum' do 
   it 'with positive numberss' do
     result = subject.sum(5, 7)
